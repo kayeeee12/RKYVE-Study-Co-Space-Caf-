@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RKYVE Café</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+</head>
+
+<body>
+
+  <!-- ===== HEADER / NAVIGATION ===== -->
+  <header id="top">
+    <div class="logo">
+      <img src="logo.jpg" alt="RKYVE Café Logo">
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home">HOMEPAGE</a></li>
+      <li><a href="#menu">MENU</a></li>
+      <li><a href="#promotion">PROMOTION</a></li>
+      <li><a href="#gallery">GALLERY</a></li>
+      <li><a href="#about">ABOUT US</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+  </header>
+
+  <!-- ===== HOMEPAGE ===== -->
+  <section id="home" class="hero">
+    <h1>Welcome to RKYVE Study / Co-Space Café</h1>
+    <p>Your cozy spot for coffee, pastries, and study vibes.</p>
+    <a href="#menu" class=">See Our Menu</a>
+  </section>
+
+  <!-- ===== MENU SECTION ===== -->
+  <section id="menu" class="section">
+    <h2>Our Menu</h2>
+
+    <div class="menu-tabs">
+      <!-- RADIO BUTTONS -->
+      <input type="radio" id="crepes" name="menu" checked>
+      <input type="radio" id="pasta" name="menu">
+      <input type="radio" id="tiramisu" name="menu">
+      <input type="radio" id="drinks" name="menu">
+      <input type="radio" id="bestseller" name="menu">
+      <input type="radio" id="wifi" name="menu">
+
+      <!-- TAB BUTTONS -->
+      <div class="menu-table">
+        <label for="crepes">CREPES</label>
+        <label for="pasta">PASTA</label>
+        <label for="tiramisu">TIRAMISU</label>
+        <label for="drinks">DRINKS</label>
+        <label for="bestseller">BEST SELLER</label>
+        <label for="wifi">WIFI RATES</label>
+      </div>
+
+      <!-- MENU CONTENT -->
+      <div class="menu-content">
+        <!-- CREPES -->
+        <div class="menu-items crepes-content">
+          <h3>CLASSIC CREPES</h3>
+          <div class="menu-grid">
+            <div class="menu-card"><img src="cheesyegg.jpg"><h4>Cheesy Egg <span>₱85.00</span></h4><p>(Cheese, Egg, Mayo, Pepper & Lettuce)</p></div>
+            <div class="menu-card"><img src="hamandcheese.jpg"><h4>Ham & Cheese <span>₱85.00</span></h4><p>(Cheese, Ham, Mayo, Pepper & Lettuce)</p></div>
+            <div class="menu-card"><img src="tunamayo.jpg"><h4>Tuna Mayo <span>₱85.00</span></h4><p>(Tuna, Mayo, Cheese, Pepper & Lettuce)</p></div>
+            <div class="menu-card"><img src="beefyfied.jpg"><h4>Beefyfied <span>₱95.00</span></h4><p>(Beef, Cheese, Mayo, Pepper & Lettuce)</p></div>
+            <div class="menu-card"><img src="hamcon.jpg"><h4>Hamcon <span>₱100.00</span></h4><p>(Ham, Bacon, Cheese, Mayo, Pepper & Lettuce)</p></div>
+            <div class="menu-card"><img src="baconized.jpg"><h4>Baconized <span>₱95.00</span></h4><p>(Bacon, Cheese, Mayo, Pepper & Lettuce)</p></div>
+            <div class="menu-card"><img src="chaos.jpg"><h4>Chaos <span>₱145.00</span></h4><p>(Ham, Bacon, Beef, Cheese, Mayo, Pepper & Lettuce)</p></div>
+          </div>
+        </div>
+
+        <!-- PASTA -->
+        <div class="menu-items pasta-content">
+          <h3>PASTA</h3>
+          <div class="menu-grid">
+            <div class="menu-card"><img src="creamychickenstrip.jpg"><h4>Creamy Carbonara w/ Chicken Strip <span>₱130.00</span></h4></div>
+            <div class="menu-card"><img src="baconcarbonara.jpg"><h4>Bacon Carbonara <span>₱125.00</span></h4></div>
+            <div class="menu-card"><img src="tunacarbonara.jpg"><h4>Tuna Carbonara <span>₱119.00</span></h4></div>
+            <div class="menu-card"><img src="spaghetti.jpg"><h4>Spaghetti w/ Chicken Strips <span>₱125.00</span></h4></div>
+          </div>
+        </div>
+
+        <!-- TIRAMISU -->
+        <div class="menu-items tiramisu-content">
+          <h3>TIRAMISU</h3>
+          <div class="menu-grid">
+            <div class="menu-card"><img src="classic.jpg"><h4>Classic Tiramisu Cake <span>₱130.00</span></h4></div>
+            <div class="menu-card"><img src="mango.jpg"><h4>Mango Tiramisu Cake <span>₱140.00</span></h4></div>
+            <div class="menu-card"><img src="oreo.jpg"><h4>Oreo Tiramisu Cake <span>₱140.00</span></h4></div>
+            <div class="menu-card"><img src="matcha.jpg"><h4>Matcha Tiramisu Cake <span>₱140.00</span></h4></div>
+            <div class="menu-card"><img src="strawberry.jpg"><h4>Strawberry Tiramisu Cake <span>₱140.00</span></h4></div>
+            <div class="menu-card"><img src="blueberry.jpg"><h4>Blueberry Tiramisu Cake <span>₱140.00</span></h4></div>
+            <div class="menu-card"><img src="nutella.jpg"><h4>Nutella Tiramisu Cake <span>₱140.00</span></h4></div>
+          </div>
+        </div>
+
+        <!-- DRINKS -->
+        <div class="menu-items drinks-content">
+          <h3>DRINKS</h3>
+          <div class="menu-grid">
+            <div class="menu-card"><img src="icecreammilkshake.jpg"><h4>Ice Cream Milkshake <span>S ₱89.00 | M ₱99.00 | L ₱109.00</span></h4></div>
+            <div class="menu-card"><img src="frappe.jpg"><h4>Frappe Series <span>S ₱89.00 | M ₱99.00 | L ₱109.00</span></h4></div>
+            <div class="menu-card"><img src="icedcoffee.jpg"><h4>Iced Coffee <span>M ₱109.00 | L ₱119.00</span></h4></div>
+          </div>
+        </div>
+
+        <!-- BESTSELLER -->
+        <div class="menu-items bestseller-content">
+          <h3>⭐ Best Seller & Recommends ⭐</h3>
+          <div class="menu-grid">
+            <div class="menu-card"><img src="nutellacrepe.jpg"><h4>Nutella Smores</h4></div>
+            <div class="menu-card"><img src="spanishlatte.jpg"><h4>Spanish Latte</h4></div>
+            <div class="menu-card"><img src="chocolatecheesecake.jpg"><h4>Chocolate Cheesecake</h4></div>
+            <div class="menu-card"><img src="saltedcaramel.jpg"><h4>Salted Caramel Coffee</h4></div>
+            <div class="menu-card"><img src="strawberrymilk.jpg"><h4>Strawberry Milk</h4></div>
+            <div class="menu-card"><img src="oreofrappe.jpg"><h4>Oreo Frappe</h4></div>
+            <div class="menu-card"><img src="matchamilkshake.jpg"><h4>Matcha Milkshake</h4></div>
+          </div>
+        </div>
+
+        <!-- WIFI RATES -->
+        <div class="menu-items wifi-content">
+          <h3>WIFI RATES</h3>
+          <div class="menu-grid">
+            <div class="menu-card"><h4>Regular Rates <span>₱50.00 - ₱360.00</span></h4><p>1, 3 & 5 hrs valid within the day</p></div>
+            <div class="menu-card"><h4>Student Rates <span>₱40.00 - ₱288.00</span></h4><p>12 hours valid up to 5 days</p></div>
+            <div class="menu-card"><h4>Special Rates <span>₱60.00 - ₱505.00</span></h4><p>1, 3 & 5 hrs valid within the day</p></div>
+            <div class="menu-card"><h4>VIP Pass <span>₱1000 (30h)</span></h4><p>No expiry, use anytime</p></div>
+            <div class="menu-card"><h4>Monthly Subscription <span>₱3200.00 / ₱420.00 (15h)</span></h4><p>+ Fast Card</p></div>
+            <div class="menu-card"><h4>Perks:</h4><p>Free Cookie, Unlimited Coffee, Drinking Water, Books, Board Games, Fast WiFi & Aircon.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROMOTIONS ===== -->
+  <section id="promotion" class="section">
+    <h2>Promotions</h2>
+    <div class="promotion-grid">
+      <div class="promo-card">
+        <img src="promotion1.jpg" alt="Promo 1">
+        <h4>Netflix and Chill</h4>
+        <p>Enjoy movies with your loved ones and barkada!</p>
+      </div>
+      <div class="promo-card">
+        <img src="promotion2.jpg" alt="Promo 2">
+        <h4>Valentine's Promo</h4>
+        <p>₱500 for 2 pax — 2 hours Netflix room, ramen, chicken & fries!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section id="gallery" class="section">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <img src="1.jpg" alt="Cafe Interior">
+      <img src="2.jpg" alt="Honeycomb Study Area">
+      <img src="3.jpg" alt="Netflix Study Booth">
+      <img src="4.jpg" alt="Dining Area">
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>RKYVE Study/Co-space Café is a cozy café and co-working space located at Guinto Building, near Daet Elementary School, Gov. Panotes Avenue, Daet, Camarines Norte.</p>
+    <p>Founded on September 8, 2024 by a group of friends, “RKYVE” comes from the initials of their names — symbolizing friendship and teamwork.</p>
+    <p>RKYVE is the first café in Daet that combines a coffee shop and a study space in one, offering an ideal place where productivity meets comfort.</p>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section contact-section">
+    <h2>📞 Contact Us</h2>
+    <div class="contact-container">
+      <p><i class="fa-solid fa-envelope"></i> <strong>Email:</strong> <a href="mailto:rkyvestudycospacecafe@gmail.com">rkyvestudycospacecafe@gmail.com</a></p>
+      <p><i class="fa-solid fa-phone"></i> <strong>Phone:</strong> 0920-573-8142</p>
+      <p><i class="fa-brands fa-facebook"></i> <strong>Facebook:</strong> <a href="https://www.facebook.com/share/1EgG72fZLu/" target="_blank">RKVYE Café</a></p>
+    </div>
+  </section>
+
+  <!-- ===== BACK TO TOP BUTTON ===== -->
+  <a href="#home" class="back-to-top" title="Back to Homepage">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>© 2025 RKYVE Study / Co-Space Café</p>
+  </footer>
+
+</body>
+</html>
